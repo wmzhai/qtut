@@ -50,11 +50,40 @@ Write Once, Compile Everywhere
 
 ### 精简统一API设计
 
+* QT本身提供跨平台构建工具和IDE工具(QtCreator)
+* 在不同平台上提供完全一致的API设计
+* 开发人员不需要了解平台底层设计就可以快速入门编写程序
+* 在不同操作系统上提供平台独立的封装
 
+### 模块化设计
 
+* QT是模块化构建的，所有的模块都具备类似的设计和API样式，而模块可以灵活组合
+* 完整内容可以参考 http://doc.qt.io/qt-5/qtmodules.html
 
 
 ## 谁在用QT
 
+* Google地球
+* Adobe Photoshop
+* Autodesk Maya
+* Robomongo（开源）
+* Mathematica
+* Opera
+* Skype
+* VirtualBox
+* VLC
+* 极品飞车
+* WPS Office
+* Michelin, Intel, HP, Samsung, Blackberry, ABB, AMD, Epson, HONDA, Cannon,  …
+
+
+
 ## 为什么用QT
 
+* 跨平台支持：QT支持Windows，Mac，Linux，安卓，iOS，嵌入式系统等
+* 学习难度低：QT要比MFC简单很多
+* 文档系统全面质量高
+* 样例程序丰富可参考
+* 开发效率高
+* 界面美观：QT支持CSS，可以很方便的写出很炫的界面
+* 很容易做国际化
